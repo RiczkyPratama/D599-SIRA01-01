@@ -94,6 +94,11 @@ public class maind599 extends javax.swing.JFrame {
         bmasuk.setBounds(290, 310, 110, 30);
 
         bkeluar.setText("Keluar");
+        bkeluar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bkeluarActionPerformed(evt);
+            }
+        });
         jPanel2.add(bkeluar);
         bkeluar.setBounds(170, 310, 110, 30);
 
@@ -189,6 +194,11 @@ public class maind599 extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Wrong username or password", "Message", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_bmasukActionPerformed
+
+    private void bkeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bkeluarActionPerformed
+        // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_bkeluarActionPerformed
 
     /**
      * @param args the command line arguments

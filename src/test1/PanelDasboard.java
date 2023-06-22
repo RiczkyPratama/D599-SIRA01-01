@@ -32,6 +32,13 @@ public class PanelDasboard extends javax.swing.JPanel {
         jRadioButton6.setVisible(false);
         jRadioButton7.setVisible(false);
         jRadioButton8.setVisible(false);
+        jTxtFieldNama.setVisible(false);
+        jTxtFieldEmail.setVisible(false);
+        jTxtFieldHarga.setVisible(false);
+        jTxtFieldIdDiscord.setVisible(false);
+        jCmbPilihProduk.setVisible(false);
+        jComboBox1.setVisible(false);
+        jButton5.setVisible(false);
     }
 
     /**
@@ -83,6 +90,12 @@ public class PanelDasboard extends javax.swing.JPanel {
         jLabel11 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
 
         setLayout(null);
 
@@ -358,16 +371,39 @@ public class PanelDasboard extends javax.swing.JPanel {
         jPanel2.add(jPanel4);
         jPanel4.setBounds(0, 0, 630, 470);
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 630, Short.MAX_VALUE)
-        );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 460, Short.MAX_VALUE)
-        );
+        jPanel5.setLayout(null);
+
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/dcdoc3.png"))); // NOI18N
+        jPanel5.add(jLabel18);
+        jLabel18.setBounds(100, 150, 350, 210);
+
+        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setText("Dheny Puji Laksono (!Den), Fauzan Rizki R (Supeng) dan beberapa orang lainnya.");
+        jPanel5.add(jLabel17);
+        jLabel17.setBounds(30, 100, 560, 40);
+
+        jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setText("Riczky Pratama (SIRA), Faisal Sidauruk (isalY), Aditya Dharma (UnyxZiv),");
+        jPanel5.add(jLabel16);
+        jLabel16.setBounds(30, 80, 530, 40);
+
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setText("Discord 599 adalah komunitas discord yang terdiri dari beberapa orang yaitu");
+        jPanel5.add(jLabel15);
+        jLabel15.setBounds(30, 60, 530, 40);
+
+        jLabel14.setFont(new java.awt.Font("Segoe UI Black", 1, 30)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setText("Apa itu Discord 599 ");
+        jPanel5.add(jLabel14);
+        jLabel14.setBounds(30, 20, 320, 50);
+
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/knonawa.png"))); // NOI18N
+        jPanel5.add(jLabel13);
+        jLabel13.setBounds(0, 0, 624, 460);
 
         jPanel2.add(jPanel5);
         jPanel5.setBounds(0, 0, 630, 460);
@@ -393,6 +429,13 @@ public class PanelDasboard extends javax.swing.JPanel {
         jPanel3.setVisible(false);
         jPanel4.setVisible(true);
         jPanel5.setVisible(false);
+        jTxtFieldNama.setVisible(true);
+        jTxtFieldEmail.setVisible(true);
+        jTxtFieldHarga.setVisible(true);
+        jTxtFieldIdDiscord.setVisible(true);
+        jCmbPilihProduk.setVisible(true);
+        jComboBox1.setVisible(true);
+        jButton5.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -621,6 +664,12 @@ public class PanelDasboard extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
